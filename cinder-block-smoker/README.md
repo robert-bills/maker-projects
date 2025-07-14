@@ -1,6 +1,6 @@
 # Cinder Block Smoker (w/ Dakota Fire Pit Assist)
 
-![Front view](20230917_190032.jpg)
+![Front view](images/20230917_190032.jpg)
 
 This is my low-budget, high-output backyard smoker—built primarily from standard cinder blocks and scrap steel grating. It’s modular, scalable, and has one job: to slow-cook with *serious* smoke flavor.
 
@@ -29,13 +29,13 @@ I used a Dakota Fire Pit beneath the cooking chamber (not pictured) to generate 
 ## Photos
 
 ### Firebox and Interior
-![Firebox](20230919_170334.jpg)
+![Firebox](images/20230919_170334.jpg)
 
 ### Cooking Grate and Smoke Circulation
-![Grate](20230919_172216.jpg)
+![Grate](images/20230919_172216.jpg)
 
 ### Fully Assembled
-![Assembled smoker](20230917_190032.jpg)
+![Assembled smoker](images/20230917_190032.jpg)
 
 ## Final Thoughts
 
