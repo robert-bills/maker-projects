@@ -10,6 +10,8 @@ Welcome to my collection of practical, real-world engineering fixes, custom solu
     > Re-creation of a discontinued automotive part using FreeCAD and resin printing.
 - [First Act guitar repair](guitar-parts/)
 	> Fixed the bridge and spacers for a low end beginner guitar to give it new life.  
+- [Cinder Block Smoker](cinder-block-smoker/)
+	> Just wanted a smoker that would stand up to Colorado winters and not blow away in high winds.
 
 All source files are provided as-is. If these help you out, awesome — let me know!
 
