@@ -1,46 +1,27 @@
-# Storm Door Hinge Pin Fix
+# 🚪 Storm Door Hinge Pin Fix
 
-When high winds snapped the hinge pin on my storm door, I started searching for replacement parts. The only in-stock option was a $35 kit, that would arrive in a brief 3 weeks. The cheaper universal option? Sold out. And made of ABS.
+This is a quick repair project that saved me from overpaying for a minor part and waiting on shipping in the middle of a storm-prone season.
 
-That’s when I remembered: I have resin.
+## 🧩 The Problem
 
-## 🔧 The Problem
+Our storm door hinge pin cracked during a week of particularly nasty weather. We get straight-line winds in the 70+ mph range, so a working storm door isn’t just about convenience—it’s about keeping the door on the house.
 
-- Storm door hinge pin snapped in high winds  
-- No affordable or in-stock replacement available  
-- Needed a durable, custom-fit fix that didn’t break the bank  
+The cheapest replacement hinge pin kit I could find locally was $35. There was a cheaper ABS universal kit online, but it was out of stock. I had resin and a printer. That meant I had options.
 
-## 🧠 The Idea
+## 🔧 The Fix
 
-With a resin printer, FreeCAD, and an adjustable wrench as my only measuring tool, I decided to model the hinge pin myself.
+I pulled the broken part, measured carefully, and recreated the geometry in FreeCAD. It took a couple of attempts to get the tolerances right, but once dialed in, it worked beautifully.
 
-> ⚠️ No calipers were harmed in the making of this repair.
+I opted for shorter curing times than recommended to prevent the pin from becoming brittle under pressure—just like in my earlier **Tailgate Clip Fix** project. Once installed, the door closed smoothly again, and it’s still holding strong.
 
-## 🖥️ CAD and Print
+## 📁 Files Included
 
-- Modeled the original pin dimensions using FreeCAD
-- Printed a test pin in resin — slight tweaks to get the tolerance just right
-- Used a surviving original pin and spacer to check fit
-- Printed a second set — clean fit, no sanding needed
+- `StormDoorHinges.FCStd` – FreeCAD project file  
+- `HingePin (Meshed).stl, HingPinSpacer (Meshed).stl` – Mesh files for 3D printing  
+- `images/` – Before/after photos of the door and printed pin  
 
-## 🛠️ Install
-
-The pin dropped right into place. The door is now operating like new. And bonus: no creaking, no misalignment.
-
-## 🎉 Outcome
-
-- Total cost: ~30¢ in resin and one hour of modeling
-- Print time: I used the defaults on my Halot Mage. Print was 2 hours, 45 minutes
-- Total satisfaction: Extremely high  
-- Future proofing: Files are shareable for others with the same problem
-
-## 🗂️ Files
-
-- `/stl/hinge-pin.stl` – Final export
-- `/images/` – Photos of the hinge, print, and install
-- `/source/hinge-pin.FCStd` – FreeCAD source file
+> 💡 *When a $0.50 part becomes a $35 kit, it’s time to print your own.*
 
 ---
 
-> _“I got an adjustable wrench, FreeCAD, and a resin printer… and I ain’t afraid to use ‘em.”_
-
+If your storm door uses the same style of hinge pin and you’ve got a printer handy, feel free to try this out. Adjustments may be needed for slightly different makes and models.
