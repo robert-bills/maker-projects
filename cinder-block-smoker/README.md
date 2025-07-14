@@ -8,7 +8,7 @@ This is my low-budget, high-output backyard smoker—built primarily from standa
 
 I needed a large-capacity smoker that didn’t cost a fortune. Commercial models were either too small or too expensive, so I improvised—literally brick by brick.
 
-I used a Dakota Fire Pit beneath the cooking chamber (not pictured) to generate steady airflow and efficient combustion. That fire pit channels heat through a firebox built inside the smoker structure, which then circulates smoke and warmth through the cooking chamber.
+Since the initial build, I have upgraded the heat source to a Dakota Fire Pit beneath the cooking chamber (not pictured) to generate steady airflow and efficient combustion. That fire pit channels heat through a firebox built inside the smoker structure, which then circulates smoke and warmth through the cooking chamber.
 
 ## Materials Used
 
