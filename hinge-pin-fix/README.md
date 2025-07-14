@@ -8,10 +8,9 @@ Our storm door hinge pin cracked during a week of particularly nasty weather. We
 
 The cheapest replacement hinge pin kit I could find locally was $35. There was a cheaper ABS universal kit online, but it was out of stock. I had resin and a printer. That meant I had options.
 
-- [Final iteration](images/final-batch.jpg)
+![Final iteration](images/final-batch.jpg)
 	> The batch of pins and spacer curing in the sunlight.
-- [Test fit-up](images/pin-fit.jpg)
-	> Shot of the pin fitup test.
+
 
 ## 🔧 The Fix
 
@@ -19,7 +18,7 @@ I pulled the broken part, measured carefully, and recreated the geometry in Free
 
 I opted for shorter curing times than recommended to prevent the pin from becoming brittle under pressure—just like in my earlier **Tailgate Clip Fix** project. Once installed, the door closed smoothly again, and it’s still holding strong.
 
-- [Hinge installed](images/final-install.jpg)
+![Hinge installed](images/final-install.jpg)
 	> The hinge is installed with the original pin and my replacement.
 
 ## 📁 Files Included
