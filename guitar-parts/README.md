@@ -17,7 +17,7 @@ Using Windows 3D builder and a filament printer, I designed and printed:
 - A **saddle retainer** to hold the original saddle in place and stabilize the string height.
 - **Tuner post spacers** (or washers) to keep the strings from wandering or binding due to oversize holes.
 
-![Bridge Closeup](image/bridge2.jpg)
+![Bridge Closeup](images/bridge2.jpg)
 ![Full Bridge](images/bridge1.jpg)
 ![Tuners](images/neck.jpg)
 
