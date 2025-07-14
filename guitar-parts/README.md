@@ -11,7 +11,7 @@ This project documents a functional, lightweight restoration of an older First A
 
 ## 🧠 The Fix
 
-Using FreeCAD and a filament printer, I designed and printed:
+Using Windows 3D builder and a filament printer, I designed and printed:
 
 - A new **bridge plate** with screw retention holes.
 - A **saddle retainer** to hold the original saddle in place and stabilize the string height.
