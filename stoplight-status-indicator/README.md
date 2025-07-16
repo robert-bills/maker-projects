@@ -73,6 +73,7 @@ This setup has run continuously since 2019 with very little maintenance. It’s 
 It’s also a great reminder that you don’t need a massive budget or cutting-edge parts to solve real-world problems with elegance and a bit of creativity.
 
 *I will neither confirm nor deny playing with it, though.*  
+
 ---
 
 ## Why This Matters
