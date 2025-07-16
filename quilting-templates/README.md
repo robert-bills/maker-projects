@@ -1,6 +1,6 @@
 # Quilting Templates – Custom, Durable, Safer
 
-My wife is an avid quilter who often needs precise tracing and cutting templates for repeated patterns. Many of the commercial options she tried wore out quickly or didn't quite match the sizes she needed. Worse, some of them were thin enough that a rotary cutter could easily slip and result in cuts—both on the fabric and fingers.
+My wife is an avid quilter who often needs precise tracing and cutting templates for repeated patterns. Many of the commercial options she tried wore out quickly or didn't quite match the sizes she needed. Worse, some of them were thin enough that a rotary cutter could easily slip and result in cuts, both on the fabric and fingers.
 
 So we fixed that.
 
@@ -42,6 +42,12 @@ Each file below is an STL template suitable for 3D printing and tracing or cutti
 - `DiamondDiceTracingTemplateCutout.stl`
 
 ## 📸 Photos
+![diamond](images/20250715_144902.jpg)
+![rhombus](images/20250715_144855.jpg)
+![eq triangle](images/20250715_144934.jpg)
+![is triangle](images/20250715_144929.jpg)
+![square](images/20250715_144943.jpg)
+
 (Add your photos here showing them in use—being traced or cut around—or simply printed and staged with quilting tools.)
 
 ## 🤝 Licensing
