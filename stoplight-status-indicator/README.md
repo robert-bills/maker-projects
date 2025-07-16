@@ -51,7 +51,7 @@ Six years later, it still works beautifully.
 
 - `images/` → Photos of the deployed system
 - `external-tools/` → NodeMCU flasher utility, firmware, and flash commands
-- `designs/` → STL and FreeCAD files for printed components
+- `designs/` → Windows 3D builder models for printed components (Sorry, I wasn't good enough at FreeCAD yet!)
 - `original-code/` → MicroPython code and desktop GUI
 - `README.md` → This file
 
