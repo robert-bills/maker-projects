@@ -9,7 +9,7 @@ This project uses a simple UDP-based broadcast protocol to control RGB LEDs hous
 
 In true maker fashion, though, my status confirmation still lives on a breadboard on my desk.  
 
-I iterated the design and the code for about a year and a half.  The last major update was somewher in 2019.  
+I iterated the design and the code for about a year and a half.  The last major update was somewhere in 2019.  
 Six years later, it still works beautifully.
 
 ---
@@ -52,7 +52,7 @@ Six years later, it still works beautifully.
 - `images/` → Photos of the deployed system
 - `external-tools/` → NodeMCU flasher utility, firmware, and flash commands
 - `designs/` → Windows 3D builder models for printed components (Sorry, I wasn't good enough at FreeCAD yet!)
-- `original-code/` → MicroPython code and desktop GUI
+- `original-code/` → MicroPython and desktop GUI code
 - `README.md` → This file
 
 ---
@@ -68,10 +68,11 @@ Six years later, it still works beautifully.
 
 ## Real-World Use
 
-This setup has run continuously since 2019 with very little maintenance. It’s not just a maker toy. It’s infrastructure in my household.
+This setup has run continuously since 2019 with very little maintenance. It’s not just a maker toy. It’s infrastructure in my household.  
 
 It’s also a great reminder that you don’t need a massive budget or cutting-edge parts to solve real-world problems with elegance and a bit of creativity.
 
+*I will neither confirm nor deny playing with it, though.*  
 ---
 
 ## Why This Matters
