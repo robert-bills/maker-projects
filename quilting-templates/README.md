@@ -24,22 +24,22 @@ I designed these templates in **FreeCAD** (some may have been quickly prototyped
 Each file below is an STL template suitable for 3D printing and tracing or cutting. Print settings may vary, but we’ve found a layer height of 0.2 mm and 20–40% infill yields good results.
 
 ### 🔷 Triangles
-- `2.5inTriangleDiceTracingTemplateCutout.stl`
-- `3.5inTriangleDiceTemplateCutout.stl`
-- `4inTriangleDiceTracingTemplateCutout.stl`
-- `4.375inTriangleDiceTemplateCutout.stl`
-- `5inTriangleDiceTemplateCutout.stl`
+[2.5 Inch Triangle Dice Tracing Template](meshes/2.5inTriangleDiceTracingTemplateCutout.stl)
+[5 Inch Triangle Dice Cutout](meshes/5inTriangleDiceTemplateCutout.stl)
+[4 Inch Triange Dice Cutout](meshes/4inTriangleDiceTracingTemplateCutout.stl)
+[4.375 Inch Triangle Dice Cutout](meshes/4.375inTriangleDiceTemplateCutout.stl)
+[5 Inch Square](meshes/5inTriangleDiceTemplateCutout.stl)
 
 ### ◼ Squares
-- `3inSquareTemplateCutout.stl`
-- `4inSquareTemplateCutout.stl`
+[3 Inch Square](meshes/3inSquareTemplateCutout.stl)
+[4 Inch Square](meshes/4inSquareTemplateCutout.stl)
 
 ### ⬟ Pentagons
-- `PentagonDiceTemplateCutout.stl`
-- `PentagonDiceTracingTemplateCutout.stl`
+[Pentagon Dice Cutting Template](meshes/PentagonDiceTemplateCutout.stl)
+[Pentagon Dice Tracing Template](meshes/PentagonDiceTracingTemplateCutout.stl)
 
 ### 💠 Diamonds
-- `DiamondDiceTracingTemplateCutout.stl`
+![Diamond Dice Tracing Template](meshes/DiamondDiceTracingTemplateCutout.stl)
 
 ## 📸 Photos
 ![diamond](images/20250715_144902.jpg)
