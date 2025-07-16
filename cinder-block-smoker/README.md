@@ -39,4 +39,4 @@ Since the initial build, I have upgraded the heat source to a Dakota Fire Pit be
 
 This build has served multiple family cookouts and could feed about three families at full capacity. It’s surprisingly stable, and—best of all, entirely off-grid. If you’ve got some blocks, some grating, and an appetite, you can build one too.
 
-*Note: Always use a fire-safe surface and monitor closely. Even redneck engineering should be done responsibly.*
+*Note: Always use a fire-safe surface and monitor closely. Even backyard engineering should be done responsibly.*
