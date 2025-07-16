@@ -12,6 +12,10 @@ Welcome to my collection of practical, real-world engineering fixes, custom solu
 	> Fixed the bridge and spacers for a low end beginner guitar to give it new life.  
 - [Cinder Block Smoker](cinder-block-smoker/)
 	> Just wanted a smoker that would stand up to Colorado winters and not blow away in high winds.
+- [Quilting Templates](quitling-templates/)
+    > I was asked to provide more user (and finger) friendly templates to replace older, worn out plastic.
+- [Stoplight Status Indicator](stoplight-status-indicator)
+    > I needed to make sure I wasn't interrupted accidentally while teaching class or helping customers.
 
 All source files are provided as-is. If these help you out, awesome — let me know!
 
