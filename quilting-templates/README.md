@@ -48,7 +48,6 @@ Each file below is an STL template suitable for 3D printing and tracing or cutti
 ![is triangle](images/20250715_144929.jpg)
 ![square](images/20250715_144943.jpg)
 
-(Add your photos here showing them in use—being traced or cut around—or simply printed and staged with quilting tools.)
 
 ## 🤝 Licensing
 Free to use, remix, and share with attribution. These were created to solve a household problem, and we hope they help others as well.
