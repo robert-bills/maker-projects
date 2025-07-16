@@ -12,8 +12,8 @@ If you’ve got an early 2000s Ranger with a broken push rod clip, feel free to 
 
 ## 📁 Files Included
 
-- `tailgate_latch_v2.FCStd` – FreeCAD source file  
-- `tailgate_latch.stl` – Mesh file for printing  
+- `/designs/tailgate_latch_v2.FCStd` – FreeCAD source file  
+- `/designs/tailgate_latch.stl` – Mesh file for printing  
 - `images/` – Side by side images with production clip  
 
 > *Sometimes the best fix isn’t on the shelf—it’s on the print bed.*
