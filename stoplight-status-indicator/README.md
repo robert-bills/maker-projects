@@ -10,7 +10,9 @@ This project uses a simple UDP-based broadcast protocol to control RGB LEDs hous
 In true maker fashion, though, my status confirmation still lives on a breadboard on my desk.  
 
 I iterated the design and the code for about a year and a half.  The last major update was somewhere in 2019.  
-Six years later, it still works beautifully.
+Six years later, it still works beautifully.  
+
+![Small box with stoplights showing](images/final_small.jpg)
 
 ---
 
@@ -20,7 +22,6 @@ Six years later, it still works beautifully.
 - **Network-Simple**: UDP broadcast means zero configuration on the client side.
 - **Low-cost, Durable**: Built with off-the-shelf components and a 3D printer.
 - **Silent & Respectful**: Prevents interruptions without awkward signs or verbal requests.
-![Small box with stoplights showing](images/final.jpg)
 
 ---
 
