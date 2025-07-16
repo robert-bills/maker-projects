@@ -1,5 +1,5 @@
 # Tailgate Push Rod Clip – 2000 Ford Ranger
-
+![Side by Side Comparison](images/clips_small.jpg)  
 When the tailgate on my son's 2000 Ford Ranger stopped working, I figured it would be an easy fix. I'd replaced plenty of tailgate hardware before. A quick trip to the auto parts store got me a pack of "universal" push rod clips—and within minutes I had the tailgate panel open and ready.
 
 One of the clips snapped immediately (too small, my fault for forcing it). The only other one that *kind of* fit held for a bit, but didn’t survive more than a couple uses. None of the off-the-shelf parts actually worked. Even one "guaranteed to fit" failed.
