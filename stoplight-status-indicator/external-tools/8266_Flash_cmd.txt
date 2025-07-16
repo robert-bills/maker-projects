@@ -1,0 +1,5 @@
+sudo esptool.py --port /dev/ttyUSB0 erase_flash
+sudo esptool.py --port /dev/ttyUSB0 --baud 460800 write_flash --flash_size=detect -fm dio 0 ~/Downloads/esp8266-20190529-v1.11.bin 
+sudo picocom /dev/ttyUSB0 -b115200
+
+after setting up device use: import webrepl_setup to enable webrepl
