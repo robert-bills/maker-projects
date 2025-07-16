@@ -20,6 +20,7 @@ Six years later, it still works beautifully.
 - **Network-Simple**: UDP broadcast means zero configuration on the client side.
 - **Low-cost, Durable**: Built with off-the-shelf components and a 3D printer.
 - **Silent & Respectful**: Prevents interruptions without awkward signs or verbal requests.
+![Small box with stoplights showing](images/final.jpg)
 
 ---
 
