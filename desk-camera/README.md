@@ -4,6 +4,10 @@ I got tired of looking up at a webcam mounted on top of my monitor—or worse, l
 
 This camera mount grew out of that need. It attaches directly to the pole of my dual-monitor stand, keeping the camera right where I want it without taking up desk space or needing constant adjustment.
 
+![Workspace Left Angle](images/workspace_left.jpg)
+![Workspace Right](images/workspace_right.jpg)
+![Assembly Pieces](images/assembly_items.jpg)
+
 ## 🧰 The Build
 
 - Mounts securely to a vertical pole (mine’s part of a monitor arm setup)
@@ -16,7 +20,11 @@ This camera mount grew out of that need. It attaches directly to the pole of my 
 
 You'll find:
 - STL files for each component
-- A `.FCStd` FreeCAD source file with all four parts in one project
+- [Camera mounting bolt](designs/CameraBolt (Meshed).stl) - Standard size camera bolt
+- [Clamp left side](designs/ClampHalf1 (Meshed).stl) - Left half of clamp
+- [Clamp right side](designs/ClampHalf2 (Meshed).stl) - Right half of clamp (yes, you could just print one twice)
+- [Shelf Arm](designs/Shelf_Arm (Meshed).stl) - Shelf plate merged with arm
+- [Shelf_Assembly_Whole.FCStd](designs/Shelf_Assembly_Whole.FCstd) - FreeCAD source file with all four parts in one project  
 
 Bring your own junk drawer screws—threaded inserts and custom bolts are for another day.
 
@@ -35,4 +43,4 @@ The original version used mounting tape to hold the webcam in place (it worked, 
 Go for it. Adapt, remix, improve.  
 Let me know how it works for you—or better yet, show me your version.
 
-— Rob Bills
+— Rob
