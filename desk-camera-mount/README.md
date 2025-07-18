@@ -4,9 +4,9 @@ I got tired of looking up at a webcam mounted on top of my monitor—or worse, l
 
 This camera mount grew out of that need. It attaches directly to the pole of my dual-monitor stand, keeping the camera right where I want it without taking up desk space or needing constant adjustment.
 
-![Workspace Left Angle](images/workspace_left.jpg)
-![Workspace Right](images/workspace_right.jpg)
-![Assembly Pieces](images/assembly_items.jpg)
+![Workspace Left Angle](images/workspace_left_small.jpg)
+![Workspace Right](images/workspace_right_small.jpg)
+![Assembly Pieces](images/assembly_items_small.jpg)
 
 ## 🧰 The Build
 
