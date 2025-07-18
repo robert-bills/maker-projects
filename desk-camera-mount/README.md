@@ -19,7 +19,7 @@ This camera mount grew out of that need. It attaches directly to the pole of my 
 ## 🛠️ Parts & Files
 
 You'll find:
-- STL files for each component
+- STL files for each component  
 	[Camera mounting bolt](designs/CameraBolt(Meshed).stl) - Standard size camera bolt  
 	[Clamp left side](designs/ClampHalf1(Meshed).stl) - Left half of clamp  
 	[Clamp right side](designs/ClampHalf2(Meshed).stl) - Right half of clamp (yes, you could just print one twice)  
