@@ -20,11 +20,11 @@ This camera mount grew out of that need. It attaches directly to the pole of my 
 
 You'll find:
 - STL files for each component
-- [Camera mounting bolt](designs/CameraBolt (Meshed).stl) - Standard size camera bolt
-- [Clamp left side](designs/ClampHalf1 (Meshed).stl) - Left half of clamp  
-- [Clamp right side](designs/ClampHalf2 (Meshed).stl) - Right half of clamp (yes, you could just print one twice)  
-- [Shelf Arm](designs/Shelf_Arm (Meshed).stl) - Shelf plate merged with arm  
-- [Shelf_Assembly_Whole.FCStd](designs/Shelf_Assembly_Whole.FCstd) - FreeCAD source file with all four parts in one project  
+- [Camera mounting bolt](designs/CameraBolt(Meshed).stl) - Standard size camera bolt
+- [Clamp left side](designs/ClampHalf1(Meshed).stl) - Left half of clamp  
+- [Clamp right side](designs/ClampHalf2(Meshed).stl) - Right half of clamp (yes, you could just print one twice)  
+- [Shelf Arm](designs/Shelf_Arm(Meshed).stl) - Shelf plate merged with arm  
+- [Entire Shelf Assembly](designs/Shelf_Assembly_Whole.FCstd) - FreeCAD source file with all four parts in one project  
 
 Bring your own junk drawer screws—threaded inserts and custom bolts are for another day.
 
