@@ -35,7 +35,9 @@ Closeup of clip on the microphone arm
 
 ## 💬 Reflections
 
-This project isn’t flashy. It didn’t require fancy CAD tricks or complex assemblies. But it solved a real problem with a design I could trust and iterate on quickly.
+This project isn’t flashy. It didn’t require fancy CAD tricks or complex assemblies. But it solved a real problem with a design I could trust and iterate on quickly.  
+
+I have since updated the design methods in the FreeCAD file, but didn't print out a new hook.  I recently generated a mesh file for those who just want to print their own.  The dimensions are available in the FreeCAD file.  I may generate new specification sheets for these projects for those that are looking to print a working model quickly.
 
 It’s a good reminder that:
 
