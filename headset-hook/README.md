@@ -1,6 +1,7 @@
 # Headset Hook for Microphone Stand (3D Printed)
 
-![Printed Headset Clip](images/printed_clip_small.jpg) - 3D printed clip  
+![Printed Headset Clip](images/printed_clip_small.jpg)  
+3D printed clip  
 
 ## 🧩 Problem
 
@@ -27,8 +28,10 @@ The fourth iteration has been in use for over five years now. It’s still clipp
 
 With this model, I also started applying some advice on parametric modeling and sketch-driven design. The entire shape comes from a single 2D sketch that’s then padded.  If your mic stand or headset has different dimensions, you should be able to adjust the measurements directly in the sketch to fit your gear.
 
-![Clip holding headset](images/clip_in_use_small.jpg) - Clip holding headset on microphone arm  
-![Clip closeup shot](images/clip_closeup_small.jpg) - Closeup of clip on the microphone arm  
+![Clip holding headset](images/clip_in_use_small.jpg)  
+Clip holding headset on microphone arm  
+![Clip closeup shot](images/clip_closeup_small.jpg)  
+Closeup of clip on the microphone arm  
 
 ## 💬 Reflections
 
