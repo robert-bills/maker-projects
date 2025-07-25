@@ -17,7 +17,7 @@ I needed a solution that was:
 - Space-efficient, especially in depth
 - Easy to modify for other laptops or devices
 - Lightweight but strong enough for a MacBook Pro
-- Parts intentionally separate for travel
+- Easy to take on business trips
 
 ## Approach
 
