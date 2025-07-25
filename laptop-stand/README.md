@@ -24,8 +24,6 @@ I needed a solution that was:
 I started with a simple design using **FreeCAD** just to get something I could print quickly.  It only took a couple of iterations to get right.  
 Later, when people started asking for the pattern, I rebuilt it as a parametric model, allowing quick adjustments to height, width, thickness, and foot angle. But mostly to not be embarrassed by sloppy design.  
 
-The updated version was modeled entirely on a **Raspberry Pi 4** running FreeCAD v0.20—a nod to both minimalism and capability.  
-
 ---
 
 > 🏷️ STL and FreeCAD files are included for both versions. The parametric v2 version is easier to customize and remix. 
@@ -101,6 +99,3 @@ MIT License – remix, print, or adapt freely. A nod of credit is appreciated if
 
 ---
 
-## 🐧 Maker Note
-
-This design was modeled and exported almost entirely on a **Raspberry Pi 4** running FreeCAD 0.20.2, proving that practical CAD doesn't require high-end hardware.
