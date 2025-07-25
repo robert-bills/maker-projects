@@ -17,10 +17,14 @@ I needed a solution that was:
 - Space-efficient, especially in depth
 - Easy to modify for other laptops or devices
 - Lightweight but strong enough for a MacBook Pro
+- Parts intentionally separate for travel
 
 ## Approach
 
-I started with a simple design to validate the concept, then rebuilt it as a parametric model using **FreeCAD**, allowing quick adjustments to height, width, thickness, and foot angle.
+I started with a simple design using **FreeCAD** just to get something I could print quickly.  It only took a couple of iterations to get right.  
+Later, when people started asking for the pattern, I rebuilt it as a parametric model, allowing quick adjustments to height, width, thickness, and foot angle. But mostly to not be embarrassed by sloppy design.  
+
+The updated version was modeled entirely on a **Raspberry Pi 4** running FreeCAD v0.20—a nod to both minimalism and capability.  
 
 ---
 
