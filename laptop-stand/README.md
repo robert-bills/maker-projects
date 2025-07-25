@@ -59,10 +59,10 @@ Note: Post-cut fillet on the main stand body is applied manually via the **Part*
 
 | Feature         | Recommendation                     |
 |----------------|-------------------------------------|
-| Material        | PLA or PETG                        |
+| Material        | PLA or PETG or ABS like resin      |
 | Orientation     | Rails down (stand); flat (feet)    |
 | Infill          | 15–20%                             |
-| Supports        | None required                      |
+| Supports        | Only inside the cutout             |
 | Assembly        | Print two `Foot` models (identical) |
 
 ---
