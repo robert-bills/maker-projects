@@ -1,6 +1,30 @@
-# Parametric Vertical Laptop Stand
+# Laptop Stand: From Basic and Rough to Parametric  
 
 This project showcases the evolution of a vertical laptop stand—from a functional original design to a cleaner, fully parametric version optimized for customization and reuse.
+
+## Problem
+
+My workspace was getting crowded.
+
+With my personal laptop docked on one end of the desk and a professional machine needing a home, I was out of room. Two keyboards, a USB-C hub, and other essentials left me with no space to work comfortably—until I noticed the unused space *behind* my monitors.
+
+## Constraints
+
+I needed a solution that was:
+
+- Stable enough for everyday use
+- Printable without supports
+- Space-efficient, especially in depth
+- Easy to modify for other laptops or devices
+- Lightweight but strong enough for a MacBook Pro
+
+## Approach
+
+I started with a simple design to validate the concept, then rebuilt it as a parametric model using **FreeCAD**, allowing quick adjustments to height, width, thickness, and foot angle.
+
+---
+
+> 🏷️ STL and FreeCAD files are included for both versions. The parametric v2 version is easier to customize and remix. 
 
 ---
 
@@ -24,7 +48,7 @@ This project showcases the evolution of a vertical laptop stand—from a functio
 - Stand geometry and foot modules are cleanly separated
 - Sketches are logically constrained and easier to modify
 - Only one non-parametric fillet (post-cut) due to FreeCAD v0.20 limitations
-- Modeled primarily on a Raspberry Pi 4 using FreeCAD 0.20.2 over VNC
+- Modeled primarily on a Raspberry Pi 4 using FreeCAD 0.20.2 over VNC, mostly to see if I could
 
 📁 Files: [`v2-parametric/`](./v2-parametric)
 - [`laptop_stand_v2.FCStd`](./v2-parametric/laptop_stand_v2.FCStd)
