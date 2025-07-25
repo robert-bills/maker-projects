@@ -14,6 +14,8 @@ Welcome to my collection of practical, real-world engineering fixes, custom solu
 	> Created a simple mount to keep my camera at eye level for meetings and classes.
 - [Headset Hook](headset-hook/)
     > 3D printed a simple, boxy hook to hold my headphones to my microphone stand for easy access.
+- [Laptop Stand](laptop-stand/)
+    > 3d printed a laptop stand to reduce clutter for a docked device.
 - [Cinder Block Smoker](cinder-block-smoker/)
 	> Just wanted a smoker that would stand up to Colorado winters and not blow away in high winds.
 - [Quilting Templates](quitling-templates/)
