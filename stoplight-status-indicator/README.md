@@ -1,15 +1,15 @@
 # Office Stoplight Status System
 
-In early 2017, I transitioned to remote work full time. It didn’t take long to realize the biggest challenge wasn’t bandwidth or productivity—it was people barging in during meetings.
+In early 2017, I transitioned to remote work full time. It didn’t take long to realize the biggest challenge wasn’t bandwidth or productivity—it was the potential for unintended disturbances during meetings.
 
 My first solution? A whiteboard on the door.  
 My better solution? A custom-built stoplight system with 3D-printed housings, microcontrollers, and a lightweight control GUI.
 
-This project uses a simple UDP-based broadcast protocol to control RGB LEDs housed in 3D-printed “stoplights” around the house.   The controller runs on a small Python GUI, while ESP8266 boards flashed with MicroPython control the lights themselves.  
+This project uses a simple UDP-based broadcast protocol to control LEDs housed in 3D-printed “stoplights” around the house.   The controller runs on a small Python GUI, while ESP8266 boards flashed with MicroPython control the lights themselves.  
 
 In true maker fashion, though, my status confirmation still lives on a breadboard on my desk.  
 
-I iterated the design and the code for about a year and a half.  The last major update was somewhere in 2019.  
+I iterated the design and the code for about a year and a half (or when a behavior bothered me too much).  The last major update was somewhere in 2019.  
 Six years later, it still works beautifully.  
 
 ![Small box with stoplights showing](images/final_small.jpg)
@@ -37,7 +37,7 @@ Six years later, it still works beautifully.
 - The message is only a few bytes—perfect for real-time status and low interference
 
 ### Hardware
-- Standard RGB LED breakout board
+- Standard LED breakout board
 - Breadboard and jumper wires
 - Power from USB or wall adapter
 - 3D-printed housings (see `/images`)
