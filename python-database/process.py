@@ -3,6 +3,8 @@
 
 # imports
 import csv
+import sqlite3
+
 
 # open a CSV file
     # load the data
@@ -11,10 +13,12 @@ def get_csv_data(filename):
     temp_data = csv.reader(in_file)
     return temp_data
 
+
 # separate a repeating qualifier out
     # we know our data, let's use sensor
 def get_unique_values(csv_data):
     temp_data = []
+    next(csv_data) # we know the first item is the header
     for row in csv_data:
         if row[2] in temp_data: # item 3 in the row is the sensor
             pass # skip if it exists, add if it doesn't
@@ -25,7 +29,7 @@ def get_unique_values(csv_data):
 # create a new database file (not worried about servers right now)
 
 # create a table to hold the repeating data
-# load the data
+    # load the data
 
 # create a table to hold referenced data 
 # load the data
