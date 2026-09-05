@@ -1,8 +1,1 @@
-CREATE TABLE "weather_data" (
-	"reading_id"	INTEGER,
-	"reading_date"	TEXT,
-	"sensor"	TEXT,
-	"temperature"	INTEGER,
-	"humidity"	INTEGER,
-	"pressure"	INTEGER
-)
+CREATE TABLE "weather_data" ("reading_id" INTEGER, "reading_date" TEXT,"sensor" TEXT,"temperature" INTEGER,"humidity" INTEGER,"pressure" INTEGER)
