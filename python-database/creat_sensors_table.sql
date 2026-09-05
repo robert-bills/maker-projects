@@ -1,0 +1,5 @@
+CREATE TABLE "sensors" (
+	"sensor"	TEXT UNIQUE,
+	"sensorId"	NUMERIC NOT NULL UNIQUE,
+	PRIMARY KEY("sensorId")
+)
