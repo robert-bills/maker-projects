@@ -25,9 +25,8 @@ def get_csv_data(filename):
 
 # main function to coordinate the action
 if __name__ == "__main__":
-    print("starting process")
     csv_data = get_csv_data("weather_data.csv")
+    # testing data returned
     for row in csv_data:
         print(row)
-        
     
