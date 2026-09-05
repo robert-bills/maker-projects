@@ -13,6 +13,14 @@ def get_csv_data(filename):
 
 # separate a repeating qualifier out
     # we know our data, let's use sensor
+def get_unique_values(csv_data):
+    temp_data = []
+    for row in csv_data:
+        if row[2] in temp_data:
+            pass
+        else:
+            temp_data.append(row[2])
+    return temp_data
 
 # create a new database file (not worried about servers right now)
 
