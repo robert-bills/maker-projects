@@ -7,6 +7,7 @@
 # load the data
 
 # separate a repeating qualifier out
+    # we know our data, let's use sensor
 
 # create a new database file (not worried about servers right now)
 
@@ -20,3 +21,4 @@
 # main function to coordinate the action
 if __name__ == "__main__":
     print("starting process")
+    
