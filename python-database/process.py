@@ -8,8 +8,8 @@ import csv
     # load the data
 def get_csv_data(filename):
     in_file = open(filename, 'r')
-    tmp_data = csv.reader(in_file)
-    return tmp_data
+    temp_data = csv.reader(in_file)
+    return temp_data
 
 # separate a repeating qualifier out
     # we know our data, let's use sensor
