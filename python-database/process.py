@@ -34,7 +34,7 @@ def get_unique_values(csv_data):
 # main function to coordinate the action
 if __name__ == "__main__":
     csv_data = get_csv_data("weather_data.csv")
-    # testing data returned
-    for row in csv_data:
+    unique_fields = get_unique_values(csv_data)
+    for row in unique_fields:
         print(row)
     
