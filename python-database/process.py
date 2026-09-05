@@ -7,7 +7,7 @@ import csv
 # open a CSV file
     # load the data
 def get_csv_data(filename):
-    in_file = open(filename, 'r')
+    in_file = open(filename, 'r') # read only, don't want to change it
     temp_data = csv.reader(in_file)
     return temp_data
 
@@ -16,8 +16,8 @@ def get_csv_data(filename):
 def get_unique_values(csv_data):
     temp_data = []
     for row in csv_data:
-        if row[2] in temp_data:
-            pass
+        if row[2] in temp_data: # item 3 in the row is the sensor
+            pass # skip if it exists, add if it doesn't
         else:
             temp_data.append(row[2])
     return temp_data
