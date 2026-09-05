@@ -15,3 +15,8 @@
 
 # create a table to hold referenced data 
 # load the data
+
+
+# main function to coordinate the action
+if __name__ == "__main__":
+    print("starting process")
