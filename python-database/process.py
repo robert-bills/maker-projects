@@ -18,6 +18,7 @@ def get_csv_data(filename):
     # we know our data, let's use sensor
 def get_unique_values(csv_data):
     temp_data = []
+    counter = 0
     next(csv_data) # we know the first item is the header
     for row in csv_data:
         if row[2] in temp_data: # item 3 in the row is the sensor
@@ -35,6 +36,13 @@ def get_database(filename):
 
 # create a table to hold the repeating data
     # load the data
+def load_repeating_data(database, data):
+    cur = database.cursor()
+    for row in data:
+        cur.execute("INSERT INTO sensors (sensor) VALUES (?)", [row,])
+    cur.commit()
+    cur.close()
+    return
 
 
 # create a table to hold referenced data 
@@ -45,6 +53,7 @@ def get_database(filename):
 if __name__ == "__main__":
     csv_data = get_csv_data("weather_data.csv")
     unique_fields = get_unique_values(csv_data)
-    for row in unique_fields:
-        print(row)
+    my_database = get_database("weather.db")
+    res = load_repeating_data(my_database, unique_fields)
+    
     
