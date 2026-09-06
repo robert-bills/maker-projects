@@ -26,13 +26,19 @@ def get_unique_values(csv_data):
             temp_data.append(row[2])
     return temp_data
 
+
 # create a new database file (not worried about servers right now)
+def get_database(filename):
+    database = sqlite3.connect(filename)
+    return database
+
 
 # create a table to hold the repeating data
     # load the data
 
+
 # create a table to hold referenced data 
-# load the data
+    # load the data
 
 
 # main function to coordinate the action
