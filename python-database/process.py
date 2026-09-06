@@ -38,9 +38,11 @@ def get_database(filename):
     # load the data
 def load_repeating_data(database, data):
     cur = database.cursor()
+    cur.execute('''CREATE TABLE "sensors" ("sensor" TEXT UNIQUE, "sensorId" INTEGER NOT NULL UNIQUE, PRIMARY KEY("sensorId" AUTOINCREMENT))''')
+    database.commit()
     for row in data:
-        cur.execute("INSERT INTO sensors (sensor) VALUES (?)", [row,])
-    cur.commit()
+        cur.execute('''INSERT INTO sensors (sensor) VALUES (?)''', [row,])
+    database.commit()
     cur.close()
     return
 
