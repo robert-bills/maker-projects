@@ -1,0 +1,50 @@
+Python 3.13.15 (tags/v3.13.15:4061bc4, Aug  5 2026, 13:05:39) [MSC v.1944 64 bit (AMD64)] on win32
+Enter "help" below or click "Help" above for more information.
+import sqlite3
+database = sqlite3.connect('weather.db')
+database
+<sqlite3.Connection object at 0x00000205189689A0>
+cursor = database.cursor()
+cursor.execute('CREATE TABLE "sensors" ("sensor" TEXT UNIQUE, "sensorId" NUMERIC NOT NULL UNIQUE, PRIMARY KEY("sensorId"))')
+<sqlite3.Cursor object at 0x00000205189CC1C0>
+cursor.execute('CREATE TABLE "weather_data" ("reading_id" INTEGER, "reading_date" TEXT,"sensor" TEXT,"temperature" INTEGER,"humidity" INTEGER,"pressure" INTEGER)')
+<sqlite3.Cursor object at 0x00000205189CC1C0>
+database.commit()
+res = cursor.execute('select * from sensors')
+res
+<sqlite3.Cursor object at 0x00000205189CC1C0>
+for row in res:
+...     print(row)
+... 
+...     
+>>> import csv
+>>> def get_csv_data(filename):
+...     in_file = open(filename, 'r') # read only, don't want to change it
+...     temp_data = csv.reader(in_file)
+...     return temp_data
+... 
+>>> def get_unique_values(csv_data):
+...     temp_data = []
+...     next(csv_data) # we know the first item is the header
+...     for row in csv_data:
+...         if row[2] in temp_data: # item 3 in the row is the sensor
+...             pass # skip if it exists, add if it doesn't
+...         else:
+...             temp_data.append(row[2])
+...     return temp_data
+... 
+>>> csv_data = get_csv_data("weather_data.csv")
+>>> unique_fields = get_unique_values(csv_data)
+>>> cursor.execute('drop table sensors')
+<sqlite3.Cursor object at 0x00000205189CC1C0>
+>>> database.commit()
+>>> cursor.execute('CREATE TABLE "sensors" ("sensor" TEXT UNIQUE, "sensorId" NUMERIC NOT NULL UNIQUE, PRIMARY KEY("sensorId" AUTOINCREMENT))')
+Traceback (most recent call last):
+  File "<pyshell#22>", line 1, in <module>
+    cursor.execute('CREATE TABLE "sensors" ("sensor" TEXT UNIQUE, "sensorId" NUMERIC NOT NULL UNIQUE, PRIMARY KEY("sensorId" AUTOINCREMENT))')
+sqlite3.OperationalError: AUTOINCREMENT is only allowed on an INTEGER PRIMARY KEY
+>>> CREATE TABLE "sensors" ("sensor" TEXT UNIQUE, "sensorId" INTEGER NOT NULL UNIQUE, PRIMARY KEY("sensorId" AUTOINCREMENT))
+SyntaxError: invalid syntax. Perhaps you forgot a comma?
+>>> cursor.execute('CREATE TABLE "sensors" ("sensor" TEXT UNIQUE, "sensorId" INTEGER NOT NULL UNIQUE, PRIMARY KEY("sensorId" AUTOINCREMENT))')
+<sqlite3.Cursor object at 0x00000205189CC1C0>
+>>> database.commit()
