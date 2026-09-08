@@ -44,6 +44,7 @@ def load_repeating_data(database, data):
 def get_loaded_data(database):
     cur = database.cursor()
     res = cur.execute('''SELECT * from sensors''')
+    
     return res
 
 
