@@ -21,9 +21,9 @@ looking at your spreadsheet, you can usually find one or more repeating data mem
 A good solution to separate this out would be to create a table to hold the sensor's name and any other data about it and then use a simple value in the list of readings.  
 
 ## Why would you do this?  
-Let's get this out of the way first: There's not much reason to take a single spreadsheet file and use it to first create and populate a database.  
+Let's get this out of the way first: There's not much reason to take a single spreadsheet file and use its data to create and populate a database.  
 
-But I have worked in a situation where if the primary database or server is not available, then offline storage must be created to hold temporary data until it can be integrated into the main solution. From this perspective, we'd absolutely need to create the schema we need.  
+I have worked in a situation where if the primary database or server was not available, offline storage was created to hold temporary data until it could be integrated into the main solution. From this perspective, we'd absolutely need to create the appropriate schema.  
 That's the angle we'll use to justify this exercise.  
 
 ## Breaking down the problem  
