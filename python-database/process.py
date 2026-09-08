@@ -41,6 +41,7 @@ def load_repeating_data(database, data):
 
 
 # get the data we just loaded into the reference table
+    # then we can replace the sensors with ids
 def get_loaded_data(database):
     cur = database.cursor()
     res = cur.execute('''SELECT * from sensors''')
