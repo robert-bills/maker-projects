@@ -37,6 +37,17 @@ def get_database(filename):
 # create a table to hold the repeating data
     # load the data
 def load_repeating_data(database, data):
+    pass
+
+
+# get the data we just loaded into the reference table
+def get_loaded_data(database):
+    pass
+
+
+# create a table to hold referenced data 
+    # load the data
+def load_referenced_data(database, data):
     cur = database.cursor()
     cur.execute('''CREATE TABLE "sensors" ("sensor" TEXT UNIQUE, "sensorId" INTEGER NOT NULL UNIQUE, PRIMARY KEY("sensorId" AUTOINCREMENT))''')
     database.commit()
@@ -47,15 +58,10 @@ def load_repeating_data(database, data):
     return
 
 
-# create a table to hold referenced data 
-    # load the data
-
-
 # main function to coordinate the action
 if __name__ == "__main__":
     csv_data = get_csv_data("weather_data.csv")
     unique_fields = get_unique_values(csv_data)
     my_database = get_database("weather.db")
-    res = load_repeating_data(my_database, unique_fields)
-    
+    res = load_referenced_data(my_database, unique_fields)
     
