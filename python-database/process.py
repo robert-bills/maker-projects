@@ -42,7 +42,9 @@ def load_repeating_data(database, data):
 
 # get the data we just loaded into the reference table
 def get_loaded_data(database):
-    pass
+    cur = database.cursor()
+    res = cur.execute('''SELECT * from sensors''')
+    return res
 
 
 # create a table to hold referenced data 
@@ -64,4 +66,5 @@ if __name__ == "__main__":
     unique_fields = get_unique_values(csv_data)
     my_database = get_database("weather.db")
     res = load_referenced_data(my_database, unique_fields)
+    sensors = get_loaded_data(my_database)
     
