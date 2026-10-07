@@ -3,6 +3,7 @@
 
 # imports
 import csv
+import sys
 import sqlite3
 
 
@@ -105,7 +106,13 @@ def check_results(database):
 
 # main function to coordinate the action
 if __name__ == "__main__":
-    header, rows = get_csv_data("weather_data_100k.csv")
+    # if we don't specify an input file, use a standard one
+    if len(sys.argv) < 2:
+        filename="weather_data_100k.csv"
+    else:
+        filename = sys.argv[1]
+        
+    header, rows = get_csv_data(filename)
     unique_fields = get_unique_values(rows)
     my_database = get_database("weather.db")
     load_repeating_data(my_database, unique_fields)
